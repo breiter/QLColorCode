@@ -25,6 +25,7 @@
 				<string>public.json</string>
 				<string>com.microsoft.c-sharp</string>
 				<string>com.microsoft.f-sharp</string>
+				<string>public.data</string>
 			</array>
 		</dict>
 	</array>
