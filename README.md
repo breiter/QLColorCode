@@ -1,17 +1,13 @@
 # QLColorCode
 
-[![Build Status](https://travis-ci.org/anthonygelibert/QLColorCode.svg?branch=master)](https://travis-ci.org/anthonygelibert/QLColorCode)
-
 **Original project:** <http://code.google.com/p/qlcolorcode/>
 
 This is a Quick Look plugin that renders source code with syntax highlighting,
-using the [Highlight library](http://www.andre-simon.de).
+using the [Highlight library](http://www.andre-simon.de). Assumes this is installed with MacPorts.
+`sudo port install highlight`
 
 To install the plugin, just drag it to `~/Library/QuickLook`.
 You may need to create that folder if it doesn't already exist.
-
-Alternative, if you use [Homebrew-Cask](https://github.com/caskroom/homebrew-cask),
-install with `brew cask install qlcolorcode`.
 
 ## Settings
 If you want to configure `QLColorCode`, there are several `defaults` commands that could be useful:
@@ -25,7 +21,7 @@ Setting the font (default is `Menlo`):
 
     defaults write org.n8gray.QLColorCode font Monaco
 
-Setting the font size (default is `10`):
+Setting the font size (default is `8`):
 
     defaults write org.n8gray.QLColorCode fontSizePoints 9
 
