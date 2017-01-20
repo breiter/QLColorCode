@@ -96,7 +96,7 @@ NSData *colorizeURL(CFBundleRef bundle, CFURLRef url, int *status, int thumbnail
 #ifdef DEBUG
                                    @"1", @"qlcc_debug",
 #endif
-                                   @"10", @"fontSizePoints",
+                                   @"8", @"fontSizePoints",
                                    @"Menlo", @"font",
                                    @"edit-xcode", @"hlTheme",
 //                                   @"-lz -j 3 -t 4 --kw-case=capitalize ", @"extraHLFlags", 
