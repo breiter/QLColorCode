@@ -23,6 +23,8 @@
 				<string>public.tex</string>
 				<string>public.text</string>
 				<string>public.json</string>
+				<string>com.microsoft.c-sharp</string>
+				<string>com.microsoft.f-sharp</string>
 			</array>
 		</dict>
 	</array>
